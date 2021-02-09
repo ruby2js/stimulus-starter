@@ -18,4 +18,4 @@ $ yarn install
 $ yarn start
 ```
 
-Place your controllers in the './controllers' directory.
+Place your controllers in the 'src/controllers' directory.

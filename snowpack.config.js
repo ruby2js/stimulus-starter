@@ -1,5 +1,10 @@
 module.exports = {
-  "plugins": [
+  mount: {
+    public: {url: "/", static: true, resolve: false},
+    src: "/"
+  },
+
+  plugins: [
     ["@rubys/snowpack-plugin-require-context", {
       input: ['application.js']
     }],
@@ -7,7 +12,7 @@ module.exports = {
     ["@ruby2js/snowpack-plugin", { 
       eslevel: 2022, 
       autoexports: "default", 
-      filters: ["functions", "camelCase", "esm", "stimulus"]
+      filters: ["stimulus", "esm", "functions"]
     }]
   ]
 }
