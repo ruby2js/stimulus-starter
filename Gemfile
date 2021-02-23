@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'ruby2js', '>= 4.0.0'
+gem 'ruby2js', '>= 4.0.1'
 
