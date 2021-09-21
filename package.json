@@ -10,10 +10,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@ruby2js/snowpack-plugin": "~0.0.3",
-    "@rubys/snowpack-plugin-require-context": "~0.0.3",
+    "@hotwired/stimulus": "^3.0.0-beta.2",
+    "@ruby2js/snowpack-plugin": "^0.0.4",
+    "@rubys/snowpack-plugin-require-context": "^0.0.6",
+    "@stimulus/webpack-helpers": "^2.0.0",
     "resolve": "~1.20.0",
-    "snowpack": "~3.0.11",
-    "stimulus": "~2.0.0"
+    "snowpack": "^3.8.8"
   }
 }
